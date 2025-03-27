@@ -1,0 +1,19 @@
+BEGIN
+1. INITIALIZE total_price = 0
+2. WHILE items remain in cart:
+   a. SCAN item
+   b. ADD item price to total_price
+   c. DISPLAY running total
+3. APPLY discounts if applicable
+4. DISPLAY final total
+5. ASK customer for payment method (Cash/Card)
+6. IF Cash:
+     a. ACCEPT cash
+     b. CALCULATE change
+     c. RETURN change
+   ELSE IF Card:
+     a. PROCESS card transaction
+     b. VERIFY payment success
+7. PRINT receipt
+8. THANK customer
+END

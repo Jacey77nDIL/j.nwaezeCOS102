@@ -1,0 +1,6 @@
+BEGIN
+1. INPUT name1, age1, name2, age2
+2. LET temp
+3. SWAP values: temp = age1, age1 = age2, age2 = temp
+4. DISPLAY swapped ages
+END
